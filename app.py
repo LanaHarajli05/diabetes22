@@ -56,7 +56,7 @@ with tab1:
         fig2 = px.pie(gender_chart, values="diabetes", names="gender", title="Diabetes Rates by Gender")
         st.plotly_chart(fig2, use_container_width=True)
         with st.expander("Interpretation"):
-            st.markdown("The bar chart shows us the distribution of Diabetes among gender, we can notice that the % of Male with Diabetes is higher than % of female with diabetes.")
+            st.markdown("The pie chart shows us the distribution of Diabetes among gender, we can notice that the % of Male with Diabetes is higher than % of female with diabetes.")
 
 # Tab 2
 with tab2:
